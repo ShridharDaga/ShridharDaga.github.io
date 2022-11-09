@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 15px;
+    /* height: 80%; */
+}
+
+.img-container{
+    width: 100%;
+    text-align: center;
+}
+
+.img-container > img{
+    width: 100%;
+    /* border-radius: 5%;   */
+}
+
+.text-container{
+    margin: 2%;
+    padding-bottom: 1%; 
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-style: italic;
+}
+
+p::selection{
+    background: yellow;     
+}
+
+/* Small screens */
+@media all and (max-width: 480px) {
+    .container {
+      /* On small screens, we are no longer using row direction but column */
+      width: 100%;
+    }
+  }
