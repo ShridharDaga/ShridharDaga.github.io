@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link href="styles/style.css" rel="stylesheet" />
     <link href="styles/contact.css" rel="stylesheet" />
-
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <a href="/about.html"> About </a>
-  
-        <a href="/contact.html"> Contact </a>
-  
-        <a href="/gallery.html"> Gallery </a>
-  
-        <a href="/index.html"> Home </a>
-      </nav>
-  
-      <div class="container">
-        
-        <div class="form-container">
+      <a href="/about.html"><i class="fa fa-fw fa-user"></i> About</a>
 
-            <h1>Send me a message</h1>
+      <a class="active" href="/contact.html"><i class="fa fa-fw fa-envelope"></i> Contact </a>
 
-          <form action="#">
+      <a href="/gallery.html"><i class="fa fa-fw fa-photo"></i> Gallery </a>
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <a href="/index.html"><i class="fa fa-fw fa-home"></i> Home </a>
+    </nav>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <div class="container">
+      <div class="form-container">
+        <h1>Drop Your Thoughts</h1>
 
+        <form action="#">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email address..">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address.."
+          />
 
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-        
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-  
+    </div>
 
-    <footer>Developed with &hearts;  by Shridhar &copy; 2022 </footer>
-
-</body>
+    <footer>Developed with &hearts; by Shridhar &copy; 2022</footer>
+  </body>
 </html>
-
